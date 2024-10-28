@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Teka-Teki Silang (TTS)</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game Teka-Teki Silang (TTS)</h1>
+        <div id="crossword-grid">
+            <!-- Grid TTS akan dimuat di sini oleh JavaScript -->
+            <p>Memuat Teka-Teki Silang...</p>
+        </div>
+        <div id="score-board">
+            <p>Skor Anda: <span id="score">0</span></p>
+        </div>
+        <div id="clues">
+            <h2>Petunjuk:</h2>
+            <h3>Mendatar:</h3>
+            <ol id="across-clues"></ol>
+            <h3>Menurun:</h3>
+            <ol id="down-clues"></ol>
+        </div>
+    </div>
+    <!-- Pastikan tts.ts telah dikompilasi menjadi tts.js jika belum dilakukan -->
+    <script src="tts.js"></script>
+</body>
+</html>
